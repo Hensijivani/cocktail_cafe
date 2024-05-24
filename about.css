@@ -1,0 +1,13 @@
+.full-background{
+    background-size: cover;
+    background-image: url(cafe/about-title-img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+.full{
+    height: 700px;
+}
+.footer{
+    height: 500px;
+}

@@ -1,0 +1,18 @@
+.full-background{
+    background-size: cover;
+    background-image: url(cafe/menu-title-img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+.full{
+    height: 600px;
+}
+.slider{
+    background-image: url(cafe/menu-img-1.jpg);
+    background-attachment: fixed;
+    height: 600px;
+}
+.footer{
+    height: 500px;
+}

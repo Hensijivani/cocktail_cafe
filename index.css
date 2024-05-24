@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.w-background{
+    background-image: url(cafe/slider-img-1.jpg);
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: animation 7s linear 5s infinite;
+}
+@keyframes animation {
+    0%{
+        background-image: url(cafe/slider-img-2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    50%{
+        background-image: url(cafe/slider-img-3.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    100%{
+        background-size: cover;
+        background-image: url(cafe/slider-img-1.jpg);
+    }
+}
+.full{
+    height: 650px;
+    background-attachment: scroll;
+}
+.slider{
+    background-image: url(cafe/full-slider.jpg);
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+}
+.full2{
+    height: 1380px;
+    background-attachment: scroll;
+}
+.footer{
+    height: 500px;
+}
+@media screen  and (max-width:1024px)   {
+    .footer{
+        height: 300px;
+    }
+    .full2{
+        height: 1300px;
+    }
+  
+}
+@media screen and (max-width:768px) {
+    .btn{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .glass{
+        width: 60%;
+        margin-left: 30%;
+        margin-bottom: 70px;
+    }
+    .page{
+        display: none;
+    }
+    .lorem{
+        display: none;
+    }
+    .footer{
+        height: 200px;
+    }
+    .full2{
+        height: 1000px;
+    }
+    .full{
+        height: 500px;
+    }
+}
+
